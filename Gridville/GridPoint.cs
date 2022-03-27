@@ -12,8 +12,12 @@
             Y = y >= 0 ? y : throw new ArgumentOutOfRangeException(nameof(y));
         }
 
+        /// <summary>
+        /// Also called the "Manhattan distance", a mathematical distance for non-Euclidean geometries like our grid,
+        /// where the shortest path between 2 points is not a straight line.
+        /// See https://en.wikipedia.org/wiki/Taxicab_geometry.
+        /// </summary>
         public int DistanceTo(GridPoint other) => Math.Abs(X - other.X) + Math.Abs(Y - other.Y);
-
 
         public override string ToString() => $"({X}, {Y})";
 

@@ -24,6 +24,9 @@
             traversalNodesQueue.Enqueue(traversalNode);
             visitedNodes.Add(startNode);
 
+            // In addition to the other strategy, here we also keep track of the minimum distance point to the destination
+            // and the path to it. If no direct route to the destination point is found, we will at least have this
+            // closest drop point available.
             var minDistanceToDestination = int.MaxValue;
             var traversalNodeForClosestDropPoint = traversalNode;
 
@@ -31,7 +34,7 @@
             {
                 traversalNode = traversalNodesQueue.Dequeue();
 
-                if (traversalNode.GraphNode.GridPoint == destinationNode.GridPoint)
+                if (traversalNode.GraphNode.GridPoint == destinationNode?.GridPoint)
                 {
                     foundDirectRoute = true;
                     break;

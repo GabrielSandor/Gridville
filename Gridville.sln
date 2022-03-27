@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gridville", "Gridville\Gridville.csproj", "{ACCA3C9F-9F6E-48CA-8647-6941CD09818F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gridville.Tests", "Gridville.Tests\Gridville.Tests.csproj", "{CCE70AC2-53FB-4C6E-80CD-27B771512FE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACCA3C9F-9F6E-48CA-8647-6941CD09818F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCA3C9F-9F6E-48CA-8647-6941CD09818F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCA3C9F-9F6E-48CA-8647-6941CD09818F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCA3C9F-9F6E-48CA-8647-6941CD09818F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE70AC2-53FB-4C6E-80CD-27B771512FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE70AC2-53FB-4C6E-80CD-27B771512FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE70AC2-53FB-4C6E-80CD-27B771512FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE70AC2-53FB-4C6E-80CD-27B771512FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8999171E-02D6-4E02-AB3F-95DEF7A1B882}
+	EndGlobalSection
+EndGlobal
